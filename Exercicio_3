@@ -1,0 +1,8 @@
+# Exercício 3
+
+altura = float(input('Digite sua altura em centímetros: '))
+
+if (altura % 2) == 0:
+  print('A altura inserida é par!')
+else:
+  print('A altura inserida é ímpar.')
