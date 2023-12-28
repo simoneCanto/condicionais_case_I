@@ -1,0 +1,12 @@
+# Exercício 4
+
+dias_quantidade = int(input('Qual o numero do dia? '))
+dias_por_trimestre = 365 / 4
+if( dias_quantidade >  dias_por_trimestre * 3 ):
+  print("Esta data está no 4 trimeste")
+elif( dias_quantidade >  dias_por_trimestre * 2 ):
+  print("Esta data está no 3 trimeste")
+elif( dias_quantidade >  dias_por_trimestre * 1 ):
+  print("Esta data está no 2 trimeste")
+else:
+  print("Esta data está no 1 trimeste")
