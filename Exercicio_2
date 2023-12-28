@@ -1,0 +1,12 @@
+# Exercício 2
+
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+nota3 = float(input('Digite a terceira nota: '))
+
+media = round((nota1 + nota2 + nota3)/3, 2)
+
+if media >= 8:
+  print(' Você passou na matéria com média igual a: ', media)
+else:
+  print('Infelizmente você não passou, sua média foi de: ',media)
