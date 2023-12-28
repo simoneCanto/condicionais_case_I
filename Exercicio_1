@@ -1,0 +1,9 @@
+# Exercício 1
+nome_cliente = str(input('Digite seu nome: '))
+ano_nascimento_cliente = int(input('Digite o ano em que nasceu: '))
+ano_atual = 2023
+
+if (ano_atual - ano_nascimento_cliente) >= 18:
+  print('{}, você pode comprar bebidas!'.format(nome_cliente))
+else:
+  print('{}, infelizmente você não pode comprar bebidas.'.format(nome_cliente))
