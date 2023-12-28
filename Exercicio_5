@@ -1,0 +1,32 @@
+# Exercicio 5
+
+numero_A = int(input('Qual o numero A: '))
+numero_B = int(input('Qual o numero B: '))
+numero_C = int(input('Qual o numero C: '))
+
+# Analisando os empates
+if numero_A == numero_B:
+  print('Empate A: {} e B: {}'.format(numero_A, numero_B))
+if numero_B == numero_C:
+  print('Empate B: {} e C: {}'.format(numero_B, numero_C))
+if numero_A == numero_C:
+  print('Empate A: {} e C: {}'.format(numero_A, numero_C))
+
+# Analisando diferenças
+if numero_A >= numero_B and numero_A >= numero_C:
+  if numero_B >= numero_C:
+    print('Ordem: A: {} | B: {} | C: {}'.format(numero_A, numero_B, numero_C))
+  else:
+    print('Ordem: A: {} | C: {} | B: {}'.format(numero_A, numero_C, numero_B))
+
+if numero_B >= numero_A and numero_B >= numero_C:
+  if numero_A >= numero_C:
+    print('Ordem: B: {} | A: {} | C: {}'.format(numero_B, numero_A, numero_C))
+  else:
+    print('Ordem: B: {} | C: {} | A: {}'.format(numero_B, numero_C, numero_A))
+
+if numero_C >= numero_A and numero_C >= numero_B:
+  if numero_A >= numero_B:
+    print('Ordem: C: {} | A: {} | B: {}'.format(numero_C, numero_A, numero_B))
+  else:
+    print('Ordem: C: {} | B: {} | A: {}'.format(numero_C, numero_B, numero_A))
