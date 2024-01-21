@@ -1,7 +1,7 @@
 # Condicionais
 # Case 1
 
-Você deverá utilizar seu conhecimento em condicionais para
+Você deverá utilizar seu conhecimento sobre condicionais para
 desenvolver os desafios a seguir:
 
 1. Seu primeiro desafio é desenvolver um programa para um depósito de
